@@ -1,0 +1,19 @@
+{
+  "name": "class-validator-vin",
+  "version": "0.0.0",
+  "description": "VIN (vehichle identification number) validator for class-validator package.",
+  "main": "index.ts",
+  "private": "false",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "class-validator",
+    "vin"
+  ],
+  "author": "Leon Minasyan <ierehon1905@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "class-validator": "^0.13.1"
+  }
+}
