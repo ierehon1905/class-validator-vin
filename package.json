@@ -8,6 +8,10 @@
   "main": "./dist/foo.cjs",
   "module": "./dist/foo.module.js",
   "unpkg": "./dist/foo.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ierehon1905/class-validator-vin"
+  },
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
