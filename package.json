@@ -2,10 +2,16 @@
   "name": "class-validator-vin",
   "version": "0.0.0",
   "description": "VIN (vehichle identification number) validator for class-validator package.",
-  "main": "index.ts",
   "private": "false",
+  "type": "module",
+  "source": "index.ts",
+  "exports": "./dist/foo.modern.js",
+  "main": "./dist/foo.cjs",
+  "module": "./dist/foo.module.js",
+  "unpkg": "./dist/foo.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
   "keywords": [
     "class-validator",
@@ -15,5 +21,10 @@
   "license": "ISC",
   "peerDependencies": {
     "class-validator": "^0.13.1"
+  },
+  "devDependencies": {
+    "class-validator": "^0.13.1",
+    "microbundle": "^0.13.1",
+    "typescript": "^4.3.2"
   }
 }

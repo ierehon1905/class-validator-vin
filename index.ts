@@ -1,3 +1,9 @@
+import {
+  registerDecorator,
+  ValidationArguments,
+  ValidationOptions,
+} from "class-validator";
+
 /**
  * Is valued a vehicle identification number
  */
