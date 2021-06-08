@@ -17,7 +17,7 @@ export function IsVIN(validationOptions?: ValidationOptions) {
       options: validationOptions,
       validator: {
         validate(value: any, args: ValidationArguments) {
-          const VinPattern = /[0123456789ABCDEFGHJKLMNPRSTUVWXYZ]{17}/i;
+          const VinPattern = /^[0123456789ABCDEFGHJKLMNPRSTUVWXYZ]{17}$/i;
           return VinPattern.test(value);
         },
         defaultMessage(validationArguments?: ValidationArguments) {
