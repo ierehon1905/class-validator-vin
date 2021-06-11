@@ -1,0 +1,46 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#upper {
+  height: 200px;
+  /* background: darksalmon; */
+  background-color: black;
+}
+#lower {
+  height: 100px;
+
+  position: absolute;
+  cursor: move;
+  background-color: black;
+  top: 0;
+  left: 0;
+}
+
+#upper,
+#lower {
+  padding: 1em;
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+
+#container {
+  margin: auto;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* filter: grayscale() blur(20px) contrast(50000%); */
+  filter: grayscale() blur(20px);
+}
+
+#overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  backdrop-filter: contrast(50000%);
+}
