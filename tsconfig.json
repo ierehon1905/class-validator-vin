@@ -5,6 +5,6 @@
     "strict": true,
     "noImplicitReturns": true
   },
-  "files": [],
+  "files": ["index.ts"],
   "include": []
 }
