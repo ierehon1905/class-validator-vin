@@ -2,7 +2,6 @@
   "name": "class-validator-vin",
   "version": "0.0.7",
   "description": "VIN (vehichle identification number) validator for class-validator package.",
-  "type": "module",
   "source": "index.ts",
   "exports": "./dist/foo.modern.js",
   "main": "./dist/foo.cjs",
