@@ -1,6 +1,6 @@
 {
   "name": "class-validator-vin",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "VIN (vehichle identification number) validator for class-validator package.",
   "source": "index.ts",
   "main": "./dist/foo.js",
